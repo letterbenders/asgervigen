@@ -1,0 +1,35 @@
+#work .item .item-image .the-image {
+ 
+	position: absolute;
+	margin: auto 0;
+	top: 0;
+	bottom: 0;
+	left: 25%;
+	height: 300px;
+ 
+}
+
+#work .item.w2 .item-image .the-image {
+ 
+	position: absolute;
+	margin: auto 0;
+	top: 0;
+	bottom: 0;
+	left: 25%;
+	height: 150px;
+ 
+}
+
+#work .item:hover .the-image, #work .item.w2:hover .the-image {
+  display: none;
+}
+
+#work .item .item-content {
+  height: 100%;
+  position: relative;
+  left: 0;
+  top: -100%;
+  width: 100% !important;
+  max-width: 100% !important;
+
+}
